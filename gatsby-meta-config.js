@@ -15,7 +15,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'sample.png', // Path to the image in the 'asset' folder
+      thumbnail: 'ProfilePic.png', // Path to the image in the 'asset' folder
     },
     social: {
       github: ``, // `https://github.com/zoomKoding`,
@@ -32,6 +32,7 @@ module.exports = {
       {
         date: '',
         activity: '',
+        category: '',
         links: {
           github: '',
           post: '',
@@ -43,13 +44,94 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2021.02 ~',
-        activity: '개인 블로그 개발 및 운영',
-        links: {
-          post: '/gatsby-starter-zoomkoding-introduction',
-          github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-          demo: 'https://www.zoomkoding.com',
-        },
+        date: '2019.08',
+        activity: 'Enrolled to Korea International School Jeju (KISJ) MS',
+        category: 'Education',
+        links: {},
+      },
+      {
+        date: '2021.07.18',
+        activity: 'YBM COS Pro Python 2급 시험 합격',
+        category: 'Certification',
+        links: {},
+      },
+      {
+        date: '2021.11.13',
+        activity: '상명대학교 AR/VR 컨탠츠 아이디어 공모전 작품 입선',
+        category: 'Competition',
+        links: {},
+      },
+      {
+        date: '2021.02.04',
+        activity: 'USACO Bronze (978/1000)',
+        category: 'Informatics',
+        links: {},
+      },
+      {
+        date: '2022.08',
+        activity: 'Enrolled to KISJ HS',
+        category: 'Education',
+        links: {},
+      },
+      {
+        date: '2023.08',
+        activity: 'Joined EaSy Computing Club (ESC), KISJ',
+        category: 'Club',
+        links: {},
+      },
+      {
+        date: '2024.05',
+        activity: 'American Computer Science league (ACSL) | Intermediate Finalist',
+        category: 'Informatics',
+        links: {},
+      },
+      {
+        date: '2025.01.22',
+        activity: 'Korea Science Engineering Fair (KSEF) | Silver Prize',
+        category: 'Competition',
+        links: {},
+      },
+      {
+        date: '2024.12-2025.05',
+        activity: 'ACSL Student Coordinator/Advisor for KISJ',
+        category: 'Leadership',
+        links: {},
+      },
+      {
+        date: '2025.05',
+        activity: 'ACSL | Senior Finalist',
+        category: 'Informatics',
+        links: {},
+      },
+      {
+        date: '2025.06.11',
+        activity: 'Published Research Paper on Quantum Error Correction (QEC) and Quantum Computing',
+        category: 'Quantum Computing',
+        links: {},
+      },
+      {
+        date: '2025.07.02',
+        activity: 'International Greenwich Olympiad (IGO) | Bronze Prize *Online Participation',
+        category: 'Competition',
+        links: {},
+      },
+      {
+        date: '2025.06',
+        activity: 'Joined The Coala as Researcher / Intern',
+        category: 'Experience',
+        links: {},
+      },
+      {
+        date: '2025.07.18',
+        activity: 'Collaborative project with Neulbom School of Seoul, South Korea',
+        category: 'Project',
+        links: {},
+      },
+      {
+        date: '2025.07',
+        activity: 'Co-authored Textbook for Primary School students on Algorithmic CS',
+        category: 'Publication',
+        links: {},
       },
     ],
 

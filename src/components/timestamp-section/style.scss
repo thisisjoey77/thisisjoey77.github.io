@@ -19,28 +19,30 @@
     .timestamp {
       display: flex;
       justify-items: center;
+      align-items: flex-start;
 
       width: 100%;
       margin-left: 5px;
-      padding: 10px 0;
+      padding: 15px 0;
       border-left: 2px solid #bdbdbd;
 
       font-size: 18px;
       font-weight: 400;
 
       &:first-child {
-        padding-top: 7px;
+        padding-top: 12px;
       }
 
       &:last-child {
-        padding-bottom: 7px;
+        padding-bottom: 12px;
       }
 
       &::before {
         position: relative;
         left: -1px;
         content: '';
-        align-self: center;
+        align-self: flex-start;
+        margin-top: 2px;
         width: 10px;
         height: 10px;
         background-color: var(--background-color);
@@ -55,7 +57,8 @@
         width: 115px;
         min-width: 115px;
         color: #828282;
-        align-self: center;
+        align-self: flex-start;
+        padding-top: 2px;
 
         @include md {
           width: 200px;
@@ -63,9 +66,40 @@
         }
       }
 
-      .activity {
-        line-height: 23px;
+      .activity-container {
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        gap: 8px;
+
+        .activity {
+          line-height: 23px;
+          width: 100%;
+        }
+
+        .category-tag {
+          display: inline-block;
+          color: white;
+          font-size: 12px;
+          font-weight: 600;
+          padding: 4px 8px;
+          border-radius: 12px;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          width: fit-content;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+          &:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+          }
+
+          @include md {
+            font-size: 13px;
+            padding: 5px 10px;
+          }
+        }
       }
     }
   }
